@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'doa';
+
+  click() {
+    console.log('click');
+  }
 }
